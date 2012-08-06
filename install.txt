@@ -1,0 +1,12 @@
+Install instructions
+--------------------
+Unzip into a web app folder
+
+In mysql, run the installScript.sql to create the database, tables and stored procs
+Use the commented lines at the bottom of installScript.sql to load the data from 3 csv files in \scripts
+
+Point apache virtual host to htdocs which should contain getRec.php, index.php and the css
+
+Run by loading the index.php page and entering an email and date and hit the button
+
+

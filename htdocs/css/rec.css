@@ -1,0 +1,46 @@
+/* stylesheet for recommendations app */
+
+/* =GLOBALS ---------------------------------------------------- */		
+.nb {
+	list-style-type: none;
+	margin: 0;
+		padding 0;
+}
+
+label {
+	min-width: 120px;
+	padding-right: 10px;
+}
+
+/* =RECOMMENDATIONS PAGE ---------------------------------------*/		
+#rec_left_side {
+	width: 35%;
+	float: left;
+	display: block;
+	margin: 10px;
+/*	border: 1px solid #DADFE5;
+	background-color: #F5F8FB; */
+}
+
+#rec_right_side {
+	width: 50%;
+	float: left;
+	margin: 10px;
+/*	border: 1px solid #DADFE5;
+	background-color: #F5F8FB;   */
+}
+
+#no_matches { 
+	display: none;
+}
+
+#email {
+	width: 250px;
+}
+#get_recs {
+	padding: 5px;
+	margin: 5px;
+}
+#date {
+	width: 80px;
+}
